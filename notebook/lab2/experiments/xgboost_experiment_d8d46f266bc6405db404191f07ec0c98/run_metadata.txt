@@ -1,0 +1,49 @@
+=== Run Metadata ===
+Run Name: xgboost_experiment
+Run ID: d8d46f266bc6405db404191f07ec0c98
+Start Time: 1733164309065
+End Time: 1733164311851
+
+=== Metrics ===
+validation_0-logloss: 0.15235585994179518
+accuracy: 0.9525961292522807
+roc_auc: 0.9544391926657083
+
+=== Parameters ===
+objective: binary:logistic
+base_score: None
+booster: None
+colsample_bylevel: None
+colsample_bynode: None
+colsample_bytree: None
+device: None
+eval_metric: None
+gamma: None
+grow_policy: None
+interaction_constraints: None
+learning_rate: None
+max_bin: None
+max_cat_threshold: None
+max_cat_to_onehot: None
+max_delta_step: None
+max_depth: None
+max_leaves: None
+min_child_weight: None
+monotone_constraints: None
+multi_strategy: None
+n_jobs: None
+num_parallel_tree: None
+random_state: 42
+reg_alpha: None
+reg_lambda: None
+sampling_method: None
+scale_pos_weight: None
+subsample: None
+tree_method: None
+validate_parameters: None
+verbosity: None
+num_boost_round: 100
+early_stopping_rounds: None
+custom_metric: None
+verbose_eval: False
+maximize: None

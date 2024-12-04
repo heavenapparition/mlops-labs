@@ -1,0 +1,29 @@
+=== Run Metadata ===
+Run Name: tiny_tree_experiment
+Run ID: 2fa3d99d48e6473eb42911998f842889
+Start Time: 1733163254282
+End Time: 1733163256283
+
+=== Metrics ===
+training_precision_score: 0.9475367883057967
+training_recall_score: 0.9476084917725296
+training_f1_score: 0.9437877787982933
+training_accuracy_score: 0.9476084917725296
+training_log_loss: 0.180265768793087
+training_roc_auc: 0.919259467643626
+training_score: 0.9476084917725296
+
+=== Parameters ===
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: 6
+max_features: None
+max_leaf_nodes: None
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+monotonic_cst: None
+random_state: 42
+splitter: best

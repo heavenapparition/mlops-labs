@@ -1,0 +1,16 @@
+service: "service:Svc"
+labels:
+  owner: lab3
+  stage: dev
+include:
+- "*.py"
+- "*.onnx"
+python:
+  packages:
+    - numpy
+    - onnxruntime
+    - mlflow
+    - gradio
+    - pandas
+docker:
+  python_version: "3.10"

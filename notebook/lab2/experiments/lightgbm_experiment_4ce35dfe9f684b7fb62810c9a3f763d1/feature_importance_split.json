@@ -1,0 +1,14 @@
+{
+  "id": 267,
+  "person_age": 174,
+  "person_income": 912,
+  "person_home_ownership": 195,
+  "person_emp_length": 177,
+  "loan_intent": 343,
+  "loan_grade": 89,
+  "loan_amnt": 205,
+  "loan_int_rate": 349,
+  "loan_percent_income": 214,
+  "cb_person_default_on_file": 8,
+  "cb_person_cred_hist_length": 67
+}

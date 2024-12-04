@@ -1,0 +1,14 @@
+{
+  "id": 1821.7789177894592,
+  "person_age": 1691.0125917196274,
+  "person_income": 17728.193141222,
+  "person_home_ownership": 16440.318488955498,
+  "person_emp_length": 4217.123841166496,
+  "loan_intent": 11527.436862707138,
+  "loan_grade": 37418.0997710228,
+  "loan_amnt": 1638.0435478687286,
+  "loan_int_rate": 6389.667113900185,
+  "loan_percent_income": 42647.35360622406,
+  "cb_person_default_on_file": 44.831820011138916,
+  "cb_person_cred_hist_length": 509.6238193511963
+}

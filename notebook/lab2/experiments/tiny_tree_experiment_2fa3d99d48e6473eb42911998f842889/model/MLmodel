@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.18.0
+model_size_bytes: 10002
+model_uuid: df8c5ec6227c4eefb940265cbd198e99
+run_id: 2fa3d99d48e6473eb42911998f842889
+signature:
+  inputs: '[{"type": "double", "name": "id", "required": true}, {"type": "double",
+    "name": "person_age", "required": true}, {"type": "double", "name": "person_income",
+    "required": true}, {"type": "double", "name": "person_home_ownership", "required":
+    true}, {"type": "double", "name": "person_emp_length", "required": true}, {"type":
+    "double", "name": "loan_intent", "required": true}, {"type": "double", "name":
+    "loan_grade", "required": true}, {"type": "double", "name": "loan_amnt", "required":
+    true}, {"type": "double", "name": "loan_int_rate", "required": true}, {"type":
+    "double", "name": "loan_percent_income", "required": true}, {"type": "double",
+    "name": "cb_person_default_on_file", "required": true}, {"type": "double", "name":
+    "cb_person_cred_hist_length", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-12-02 18:14:14.939332'
